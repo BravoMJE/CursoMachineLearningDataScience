@@ -24,7 +24,7 @@ var_str2 = "Mundo!"
 
 print(var_str)
 print(var_str2)
-print(var_str, var_str2)
+print(var_str,",", var_str2)
 
 print(type(var_str2))
 #%%
