@@ -20,7 +20,7 @@ es mediante el indentado, es decir poniendo 4 espacios delante del código
 """
 #%%
 # La manera mas sencilla de implementar una evaluación lógica es con un if.
-temperatura = 35
+temperatura = 10
 
 if temperatura <= 20:
     #el codigo se indenta 4 espacios para indicar que estamos dentro del if

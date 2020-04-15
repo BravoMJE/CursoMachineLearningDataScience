@@ -31,6 +31,7 @@ for clave, valor in dias_semana.items():
 dias_semana_mayusculas = {}
 for clave, valor in dias_semana.items():
     dias_semana_mayusculas[clave.upper()] = valor
+
 dias_semana = dias_semana_mayusculas
 print(dias_semana)
 
