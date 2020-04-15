@@ -142,6 +142,7 @@ frutas_separadas_por_comas = ",".join(frutas)
 
 print(frutas_separadas_por_comas)
 print(type(frutas_separadas_por_comas))
+
 #%%
 frutas_separadas_por_lineas = "\n".join(frutas)
 
@@ -154,7 +155,8 @@ print("tenemos que comprar: {}".format(frutas_separadas_por_lineas))
 TUPLAS  (TUPLES)
 *******************************************************************************
 
-Las tuplas son versiones de las listas que no se pueden modificar.
+Las tuplas son versiones de las listas que no se pueden modificar. En lugar 
+de llaves [] se usa parentesis()
 
 """
 mosqueteros = ("Athos", "Porthos", "Aramis")
@@ -176,7 +178,8 @@ Diccionarios
 *******************************************************************************
 
 Los diccionarios son un conjunto de claves (keys) asociadas a valores (values).
-Sabiendo una clave podemos encontrar el valor de dicha clave
+Sabiendo una clave podemos encontrar el valor de dicha clave, se crean con 
+llaves {}
 """
 
 inventario = {
