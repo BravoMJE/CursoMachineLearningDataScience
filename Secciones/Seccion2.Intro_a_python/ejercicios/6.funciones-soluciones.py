@@ -17,7 +17,7 @@ print(resta(52, 10))
 # Crear funcion lambda que convierte un string a minusculas
 
 minusculas = lambda text: text.lower()
-minusculas("Hola Mundo!")
+print(minusculas("Hola Mundo!"))
 #%%
 # Crear una funcion que acepta 3 argumentos, 2 numeros y un string. Si el string es
 # "suma", devolver la suma de los dos numeros, si el string es "resta" devolver
