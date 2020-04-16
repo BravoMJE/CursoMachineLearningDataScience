@@ -150,7 +150,7 @@ with open(archivo, "a") as fname:
     for usuario in usuarios:
         fname.write(usuario)
         fname.write("\n")
-        
+#%%        
 archivo.read_text()
 #%%
 """
